@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  font-size: 1.5em;
+}
+
+.headerContainer nav a {
+  margin-left: 3em;
+  font-size: 0.8em;
+}
+
+.borderTopDown {
+  border-width: 0.06em 0;
+  border-style: solid;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainContainer .textContainer .titleContainer h1 {
+  font-size: 3em;
+  margin-block: 0;
+  line-height: 1;
+  color: #333333;
+}
+
+.lightText {
+  color: rgba(128, 128, 128, 0.541);
+  font-weight: 200;
+}
+
+.mainContainer .textContainer .titleContainer {
+  margin-top: 11.5em;
+}
+
+.tilesContainer {
+  display: block;
+}
+
+.mainContainer .tilesContainer button {
+  margin: 5em 2em 0 0;
+  background-color: white;
+  border: 0.06em solid #f5f2f2;
+}
+
+.mainContainer .tilesContainer button i {
+  width: 2em;
+  height: 2em;
+  box-sizing: border-box;
+  padding-top: 0.5em;
+  font-size: 1.4em;
+  color: rgb(128, 128, 128);
+}
+
+.mainContainer .dateContainer button {
+  margin: 5em 2em 0 0;
+  background-color: white;
+  border: 0.06em solid #f5f2f2;
+  font-family: "Poppins", sans-serif;
+  width: 2em;
+  height: 2em;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  color: rgba(128, 128, 128, 0.548);
+}
+
+.imageContainer img {
+  min-height: 600px;
+  max-width: 730px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  display: inline;
+  font-weight: lighter;
+}
+
+footer a {
+  font-weight: bold;
+  font-size: 1.5em;
+}
